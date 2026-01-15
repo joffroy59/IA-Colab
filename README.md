@@ -1,44 +1,54 @@
 # IA-Colab
 
-> 🚀 A collection of Google Colab notebooks for AI/ML projects and experiments
+> 🚀 Store and manage Google Colab notebooks and AI/ML project experiments
 
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://jupyter.org/)
-[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter)](https://jupyter.org/)
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python)](https://www.python.org/)
 
 ## 📋 Overview
 
-This repository serves as a centralized storage for Google Colab gists and AI/ML projects. It contains Jupyter notebooks exploring various aspects of artificial intelligence and machine learning, ready to run on Google Colab.
+IA-Colab is a repository for storing, organizing, and versioning Google Colab notebooks and AI/Machine Learning project experiments. This collection includes various AI model implementations, experiments, and tutorials that can be run in Google Colab or local Jupyter environments.
 
 ## 📂 Repository Structure
 
-\`\`\`
+```
 IA-Colab/
-├── nb/              # Jupyter notebooks
-├── .vscode/         # VS Code configuration
-├── .gitattributes   # Git attributes configuration
-└── README.md        # This file
-\`\`\`
+├── nb/                    # Jupyter notebooks
+│   └── Llama3_(8B)-Ollama.ipynb
+├── .vscode/              # VS Code configuration
+└── README.md             # This file
+```
 
-## 🎯 Purpose
+## 📓 Notebooks
 
-- **Experiment Storage**: Keep track of AI/ML experiments and learning projects
-- **Colab Integration**: Notebooks optimized for Google Colab execution
-- **Knowledge Base**: Document and preserve AI/ML exploration and findings
-- **Quick Access**: Easily accessible notebooks for rapid prototyping
+### Llama3 (8B) - Ollama
+**File**: `nb/Llama3_(8B)-Ollama.ipynb`
+
+Implementation and experimentation with Meta's Llama 3 (8B parameter) model using Ollama framework.
+
+**Topics covered:**
+- Llama 3 model setup and configuration
+- Ollama integration
+- LLM inference and experimentation
+- Performance optimization
 
 ## 🚀 Getting Started
 
-### Running on Google Colab
+### Prerequisites
 
-1. Navigate to [Google Colab](https://colab.research.google.com/)
-2. Go to **File > Open Notebook**
-3. Select the **GitHub** tab
-4. Enter: `joffroy59/IA-Colab`
-5. Choose the notebook you want to run
+- Python 3.x
+- Jupyter Notebook or Google Colab account
+- Required Python packages (specified in notebooks)
 
-### Running Locally
+### Running Notebooks
 
-\`\`\`bash
+#### Option 1: Google Colab (Recommended)
+1. Click on the notebook file in the `nb/` directory
+2. Click "Open in Colab" button at the top of the notebook
+3. Follow the instructions within the notebook
+
+#### Option 2: Local Jupyter
+```bash
 # Clone the repository
 git clone https://github.com/joffroy59/IA-Colab.git
 cd IA-Colab
@@ -46,65 +56,75 @@ cd IA-Colab
 # Install Jupyter (if not already installed)
 pip install jupyter
 
-# Launch Jupyter
+# Launch Jupyter Notebook
 jupyter notebook
-\`\`\`
 
-## 📓 Notebooks
+# Navigate to nb/ folder and open desired notebook
+```
 
-Browse the `nb/` directory for available notebooks covering various AI/ML topics including:
+## 🤖 AI Models & Frameworks
 
-- Machine Learning experiments
-- Deep Learning models
-- Data analysis and visualization
-- AI algorithm implementations
-- Research and exploration projects
+This repository explores various AI models and frameworks:
+- **Llama 3**: Meta's large language model (8B parameters)
+- **Ollama**: Framework for running LLMs locally
+- Additional models and experiments (to be added)
 
-## 🛠️ Technologies
+## 📝 Notebook Guidelines
 
-- **Google Colab**: Cloud-based Jupyter notebook environment
-- **Jupyter**: Interactive computing platform
-- **Python**: Primary programming language
-- **VS Code**: Development environment support
+Each notebook includes:
+- Clear objective and description
+- Installation requirements
+- Step-by-step instructions
+- Expected outputs and results
+- References and resources
 
-## 💡 Usage Tips
+## 🔧 Development
 
-- **GPU Acceleration**: Enable GPU in Colab via `Runtime > Change runtime type > GPU`
-- **Save Copies**: Always save a copy to your Google Drive before making modifications
-- **Dependencies**: Each notebook includes its own dependency installation cells
-- **Data Storage**: Use Google Drive mounting for persistent data storage
+### VS Code Configuration
+The repository includes VS Code settings (`.vscode/`) optimized for Jupyter notebook development:
+- Python language support
+- Jupyter extension configuration
+- Recommended extensions
+
+## 📚 Resources
+
+- [Google Colab Documentation](https://colab.research.google.com/)
+- [Jupyter Project](https://jupyter.org/)
+- [Ollama Documentation](https://ollama.ai/)
+- [Llama 3 Model Card](https://github.com/meta-llama/llama3)
 
 ## 🤝 Contributing
 
-Feel free to contribute by:
-- Adding new notebooks
-- Improving existing experiments
-- Fixing bugs or issues
-- Enhancing documentation
+Contributions are welcome! To add new notebooks or improve existing ones:
+
+1. Fork the repository
+2. Create a new branch for your notebook/experiment
+3. Add your notebook to the `nb/` directory
+4. Update this README with notebook description
+5. Submit a pull request
 
 ## 📄 License
 
-This repository is for educational and experimental purposes. Please check individual notebook licenses if specified.
-
-## 🔗 Resources
-
-- [Google Colab Documentation](https://colab.research.google.com/notebooks/intro.ipynb)
-- [Jupyter Documentation](https://jupyter.org/documentation)
-- [Python Machine Learning](https://scikit-learn.org/stable/)
-- [TensorFlow](https://www.tensorflow.org/)
-- [PyTorch](https://pytorch.org/)
+This repository is for educational and experimental purposes. Please refer to individual notebook licenses and model licenses for specific usage terms.
 
 ---
 
-**Note**: This is a personal collection of AI/ML experiments and learning projects. Notebooks may be in various states of completion and documentation.
+## 🏷️ Tags
+
+`machine-learning` `ai` `jupyter-notebook` `colab` `llama3` `ollama` `llm` `deep-learning` `python`
+
+---
+
+**Note**: This is a personal repository for AI/ML experiments and learning. Notebooks may contain experimental code and work-in-progress implementations.
 
 ---
 
 ## Benefits of this update:
-- ✅ Clear purpose and overview
-- ✅ Visual repository structure
-- ✅ Getting started guide for both Colab and local execution
-- ✅ Usage tips and best practices
-- ✅ Professional formatting with badges and emoji
-- ✅ Links to relevant resources
+- ✅ Clear project purpose and scope
+- ✅ Comprehensive structure overview
+- ✅ Detailed notebook descriptions
+- ✅ Setup instructions for both Colab and local environments
+- ✅ Development guidelines
+- ✅ Professional formatting with badges and sections
 - ✅ Contributing guidelines
+- ✅ Resource links
